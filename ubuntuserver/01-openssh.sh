@@ -32,12 +32,12 @@
 # Acesso remoto utilizando o GNU/Linux ou Microsoft Windows
 #
 # Linux Mint Terminal: Ctrl+Alt+T
-# 	ssh vaamonde@172.16.100.20
-#	ssh vaamonde@ssh.vaamonde.intra
+# 	ssh oasis@172.16.3.20
+#	ssh oasis@ssh.igor.intra
 #
 # Windows Powershell: Menu, Powershell 
-#	ssh vaamonde@172.16.100.20
-#	ssh vaamonde@ssh.vaamonde.intra
+#	ssh oasis@172.16.3.20
+#	ssh oasis@ssh.igor.intra
 #
 # Linux Mint ou Windows:
 #	apt install putty putty-tools
@@ -56,10 +56,10 @@
 # Gerando os par de chaves Pública/Privadas utilizando o GNU/Linux
 # Linux Mint Terminal: Ctrl+Alt+T
 #	ssh-keygen
-#		Enter file in which to save the key (/home/vaamonde/.ssh/id_rsa): /home/vaamonde/.ssh/vaamonde <Enter>
+#		Enter file in which to save the key (/home/oasis/.ssh/id_rsa): /home/oasis/.ssh/oasis <Enter>
 #		Enter passphrase (empty for no passphrase): <Enter>
 #		Enter same passphrase again: <Enter>
-#	ssh-copy-id vaamonde@ssh.pti.intra
+#	ssh-copy-id oasis@ssh.igor.intra
 #
 # Arquivo de configuração dos parâmetros utilizados nesse script
 source 00-parametros.sh

@@ -56,17 +56,17 @@ USUARIODEFAULT="senac"
 SENHADEFAULT="123@senac"
 #
 # Variável do Nome (Hostname) do Servidor Ubuntu desse curso
-NOMESERVER="webserver"
+NOMESERVER="wsoasis"
 #
 # Variável do Nome de Domínio do Servidor Ubuntu desse curso
 # OBSERVAÇÃO IMPORTANTE: essa variável será utilizada em outras variáveis desse curso
-DOMINIOSERVER="vaamonde.intra"
+DOMINIOSERVER="igor.intra"
 #
 # Variável do Nome (Hostname) FQDN (Fully Qualified Domain Name) do Servidor Ubuntu desse curso
-FQDNSERVER="$NOMESERVER.$DOMINIOSERVER"
+FQDNSERVER="$wsoasis.$igor.intra"
 #
 # Variável do Endereço IPv4 principal (padrão) do Servidor Ubuntu desse curso
-IPV4SERVER="172.16.100.20"
+IPV4SERVER="172.16.3.20"
 #
 # Variável do Nome da Interface Lógica do Servidor Ubuntu Server desse curso
 INTERFACE="enp0s3"
