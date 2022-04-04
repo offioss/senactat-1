@@ -24,8 +24,10 @@ Protocol 2
 #
 # Endereço IPv4 do Servidor de OpenSSH que está liberado para permitir conexões remotas 
 # via protocolo SSH
-ListenAddress 172.16.100.20
-#
+ListenAddress 172.16.3.20
+#AuthenticationMethods publickey, password
+AuthenticationMethods password
+
 # Métodos de Autenticação do OpenSSH, utilizar chaves públicas e autenticação por senha
 # Por padrão o Servidor de OpenSSH não trabalhar com Chaves Pública para autenticação, 
 # utilizando o arquivo /etc/passwd para se autenticar no servidor, por motivos de segurança, 
@@ -34,7 +36,7 @@ ListenAddress 172.16.100.20
 # /home/nome_usuário/.ssh/authorized_keys. Essa opção será utiliza em conjunto com a 
 # opção: AuthenticationMethods para verificar a chave pública.
 PubkeyAuthentication yes
-#
+
 # Especifica se a autenticação por senha é permitida. O padrão é yes. Não é recomendado 
 # alterar essa opção.
 PasswordAuthentication yes
@@ -71,13 +73,13 @@ PermitRootLogin no
 #
 # Usuários que tem permissão de acesso remoto ao Servidor de OpenSSH, separados por 
 # espaço, deve existir no servidor. Usuários listados no arquivo /etc/passwd
-AllowUsers vaamonde
+AllowUsers senac
 #
 # Grupos que tem permissão de acesso remoto ao Servidor de OpenSSH, cuidado, se você 
 # usar a variável AllowUsers o grupo padrão do usuário precisa está liberado na linha 
 # AllowGroups, separados por espaço, deve existir no servidor. Grupos listados no 
 # arquivo /etc/group
-AllowGroups vaamonde
+AllowGroups senac
 #
 # Usuários que não tem permissão de acesso remoto ao Servidor de OpenSSH, separados 
 # por espaço, deve existir no servidor. Usuários listados no arquivo /etc/passwd
