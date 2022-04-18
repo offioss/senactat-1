@@ -33,11 +33,11 @@
 #
 # Linux Mint Terminal: Ctrl+Alt+T
 # 	ssh oasis@172.16.3.20
-#	ssh oasis@ssh.igor.intra
+#	ssh oasis@ssh.oasis.intra
 #
 # Windows Powershell: Menu, Powershell 
 #	ssh oasis@172.16.3.20
-#	ssh oasis@ssh.igor.intra
+#	ssh oasis@ssh.oasis.intra
 #
 # Linux Mint ou Windows:
 #	apt install putty putty-tools
@@ -59,7 +59,7 @@
 #		Enter file in which to save the key (/home/oasis/.ssh/id_rsa): /home/oasis/.ssh/oasis <Enter>
 #		Enter passphrase (empty for no passphrase): <Enter>
 #		Enter same passphrase again: <Enter>
-#	ssh-copy-id oasis@ssh.igor.intra
+#	ssh-copy-id oasis@ssh.oasis.intra
 #
 # Arquivo de configuração dos parâmetros utilizados nesse script
 source 00-parametros.sh

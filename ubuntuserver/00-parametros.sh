@@ -60,10 +60,10 @@ NOMESERVER="wsoasis"
 #
 # Variável do Nome de Domínio do Servidor Ubuntu desse curso
 # OBSERVAÇÃO IMPORTANTE: essa variável será utilizada em outras variáveis desse curso
-DOMINIOSERVER="igor.intra"
+DOMINIOSERVER="oasis".intra"
 #
 # Variável do Nome (Hostname) FQDN (Fully Qualified Domain Name) do Servidor Ubuntu desse curso
-FQDNSERVER="$wsoasis.$igor.intra"
+FQDNSERVER="$wsoasis.$oasis.intra"
 #
 # Variável do Endereço IPv4 principal (padrão) do Servidor Ubuntu desse curso
 IPV4SERVER="172.16.3.20"
